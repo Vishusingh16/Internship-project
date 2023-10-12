@@ -6,49 +6,41 @@ const Footer = () => {
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1>Trippy</h1>
-                    <p>Choose your favourite destination</p>
-                </div>
-                <div>
-                    <a href="/">
-                        <i className="fa fa-brands fa-facebook-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa fa-brands fa-instagram-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa fa-brands fa-behance-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa fa-brands fa-twitter-square"></i>
-                    </a>
-                </div>
+                    <h1>Coding Samurai</h1>
+                    </div>
+              
             </div>
             <div className="bottom">
                 <div>
-                    <h4>Projects</h4>
-                    <a href="/">ChangeLog</a>
-                    <a href="/">Status</a>
-                    <a href="/">License</a>
+                    <h4>Explore More</h4>
+                    <a href="/">Home</a>
+                    <a href="/">About us</a>
+                    <a href="/">Contact us</a>
                     <a href="/">All Version</a>
                 </div>
                 <div>
-                    <h4>Community</h4>
-                    <a href="/">GitHub</a>
-                    <a href="/">Project</a>
-                    <a href="/">Twitter</a>
+                    <h4>Follow us </h4>
+                    <a href="/">
+                    <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    <a href="/">  <i className=" fa-brands fa-telegram"></i>Telegram</a>
+                    <a href="/"><i className="fa fa-brands fa-youtube-square"></i>Youtube</a>
+                    <a href="/">  <i class="fa-solid fa-envelope"></i>E-mail</a>
+
                 </div>
-                <div>
-                    <h4>Help</h4>
-                    <a href="/">Support</a>
-                    <a href="/">Troubleshooting</a>
-                    <a href="/">Contact Us</a>
-                </div>
+              
                 <div>
                     <h4>Others</h4>
                     <a href="/">Terms of Service</a>
                     <a href="/">Privacy Policy</a>
                     <a href="/">License</a>
+                </div>
+                <div>
+                    <h4>Address</h4>
+                 
+                        <a href="/">Indira Nagar, Lucknow, India-226016,</a>
+
+                 
+                    <a href="/">Coding Samurai , Opposite Takrohi Petrol Pump</a>
                 </div>
                 
             </div>

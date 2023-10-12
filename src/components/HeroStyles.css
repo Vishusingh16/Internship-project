@@ -32,18 +32,22 @@ img{
     width: 100%;
 }
 .hero-text h1{
+    font-family:cursive;
+    font-weight:800;
     font-size: 3rem;
     font-weight: 800;
     color: #fff;
 }
 .hero-text p{
+    font-weight: 800;
+    font-family:cursive;
     font-size: 1.3rem;
     color: #fff;
     padding: 0.5rem 0 2rem 0;
 }
 .hero-text .show{
     text-decoration: none;
-    background: #fff;
+ 
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;

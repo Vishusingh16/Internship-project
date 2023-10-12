@@ -11,7 +11,7 @@ const About = () => {
         <Hero
             cName="hero-mid"
             heroImg={AboutImg}
-            title="About"
+            title="About Us"
             url="/about"
             btnClass="hide"
         />

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutImg from "../assets/night.jpg";
+import AboutImg from "../assets/d24.jpg";
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
@@ -11,7 +11,7 @@ const About = () => {
         <Hero
             cName="hero-mid"
             heroImg={AboutImg}
-            title="About Us"
+            title=""
             url="/about"
             btnClass="hide"
         />

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import HeroImg from "../assets/10.jpg"
+import HeroImg from "../assets/d23.jpg"
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
@@ -13,8 +13,8 @@ const Home = () => {
             cName="hero"
             heroImg={HeroImg}
          
-            title="Coding Your Ascent"
-            text="Learn, Code, Upskill"
+            title=""
+            text=""
            
             url="/"
             btnClass="show"

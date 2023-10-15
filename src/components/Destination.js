@@ -1,15 +1,15 @@
 import React from "react";
-import Mountain1 from "../assets/1.jpg";
-import Mountain2 from "../assets/2.jpg";
-import Mountain3 from "../assets/3.jpg";
-import Mountain4 from "../assets/4.jpg";
+import Mountain1 from "../assets/12.jpg";
+import Mountain2 from "../assets/d3.jpg";
+import Mountain3 from "../assets/d6.jpg";
+import Mountain4 from "../assets/d20.jpg";
 import "./DestinationStyles.css";
 import DestinationData from "./DestinationData";
 
 const Destination = (props) => {
     return (<>
         <div className="destination">
-            <h1>Popular Destination</h1>
+            <h1>About Us</h1>
             <p>Tour gives you to see the opportunity to see a lot, within a time frame</p>
         </div>
 

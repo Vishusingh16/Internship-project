@@ -24,7 +24,7 @@ const Footer = () => {
                     <i class="fa-brands fa-linkedin"></i> Linkedin</a>
                     <a href="/">  <i className=" fa-brands fa-telegram"></i>Telegram</a>
                     <a href="/"><i className="fa fa-brands fa-youtube-square"></i>Youtube</a>
-                    <a href="/">  <i class="fa-solid fa-envelope"></i>E-mail</a>
+                    <a href="mailto:vaishnav.singh2021@vitbhopal.ac.in">  <i class="fa-solid fa-envelope"></i>E-mail</a>
 
                 </div>
               

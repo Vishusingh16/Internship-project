@@ -11,6 +11,15 @@ const ContactForm = () => {
                 <input placeholder="Subject"/>
                 <textarea placeholder="Message" rows="4"></textarea>
                 <button>Send Message</button>
+                <br></br>
+                <div className="scrolling-text-container">
+        <div className="scrolling-text">
+        "Caution: Web Developers at Work. We're brewing a digital potion to make our website even more amazing. It's top secret!".
+        </div>
+      </div>
+             
+             <br></br>
+
             </form>
             
         </div>

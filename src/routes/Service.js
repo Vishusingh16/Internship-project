@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import ServiceImg from "../assets/night.jpg";
+import ServiceImg from "../assets/d29.jpg";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
 
@@ -11,7 +11,8 @@ const Service = () => {
         <Hero
             cName="hero-mid"
             heroImg={ServiceImg}
-            title="Service"
+            title=""
+            
             url="/service"
             btnClass="hide"
         />

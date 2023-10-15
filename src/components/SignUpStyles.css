@@ -3,6 +3,33 @@
     color: #2a2a2a;
 }
 
+
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+    
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
 .hero-signup form {
     /* padding-top: 3rem; */
     display: flex;

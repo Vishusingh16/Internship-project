@@ -9,6 +9,34 @@
     width: 50%;
     margin: auto;
 }
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+
 .form-container input {
     height: 3rem;
     padding: 0 1rem;

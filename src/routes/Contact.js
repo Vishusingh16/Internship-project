@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import ContactImg from "../assets/d3.jpg"
+import ContactImg from "../assets/d25.jpg"
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
@@ -11,9 +11,13 @@ const Contact = () => {
         <Hero
             cName="hero-mid"
             heroImg={ContactImg}
-            title="Contact"
+            title=""
             url="/contact"
             btnClass="hide"
+         
+
+
+          
         />
         <ContactForm/>
         <Footer/>

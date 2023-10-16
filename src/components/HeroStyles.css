@@ -26,6 +26,9 @@ img{
     object-fit: cover;
     
 }
+.hi{
+    height: fit-content;
+}
     
 .hero-text{
     position: absolute;
@@ -63,7 +66,7 @@ img{
 }
 
 @media screen and (max-width: 555px) {
-    .hero-text h1{
+    .hero-text h1{  
         font-size: 1.1rem;
         padding: 0 0 2rem 0;
     }
@@ -72,9 +75,15 @@ img{
         border-radius: 6px;
         font-size: 1rem;
     }
- img  {
-    background-color: rgba(150, 163, 1, 0.292);
-  }
-    
+    .hi{
+       margin-top: 15rem;
+       height: 30rem;
+       margin-left: 1px;
+       margin-right:1px;
+    }
+    .hero-text{
+       padding: 0%;
+    }
+  
    
 }

@@ -2,19 +2,21 @@ import React from "react";
 import "./ContactFormStyles.css";
 
 const ContactForm = () => {
+    const handleRedirect = () => {
+        window.open("https://forms.gle/qYSDuVQQ2XgQisgv9", "_blank");
+    };
+   
+   
     return (
         <div className="form-container">
             <h1>Send a message to us!</h1>
             <form>
-                <input placeholder="Name"/>
-                <input placeholder="Email"/>
-                <input placeholder="Subject"/>
-                <textarea placeholder="Message" rows="4"></textarea>
-                <button>Send Message</button>
+                
+                <button onClick={handleRedirect}>Send Message</button>
                 <br></br>
                 <div className="scrolling-text-container">
         <div className="scrolling-text">
-        "Caution: Web Developers at Work. We're brewing a digital potion to make our website even more amazing. It's top secret!".
+        "We're the IT equivalent of duct tape we fix everything!"
         </div>
       </div>
              

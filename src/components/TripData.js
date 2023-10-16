@@ -7,6 +7,7 @@ const TripData = (props) => {
         </div>
         <h4>{props.heading}</h4>
         <p>{props.text}</p>
+        <a href="https://forms.gle/qYSDuVQQ2XgQisgv9">  Apply Now</a>
     </div>)
 }
 

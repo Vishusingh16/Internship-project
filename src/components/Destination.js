@@ -9,22 +9,22 @@ import DestinationData from "./DestinationData";
 const Destination = (props) => {
     return (<>
         <div className="destination">
-            <h1>About Us</h1>
-            <p>Tour gives you to see the opportunity to see a lot, within a time frame</p>
+            <h1>"Forge Your Path to Excellence with Coding Samurai: Where Skill Meets Mastery!"</h1>
+           
         </div>
 
         <DestinationData
         cName="first-des"
-        heading="Taal Volcano, Batangas"
-        text="Taal Volcano has had several violent eruptions in the past, causing deaths on the island and the populated areas surrounding the lake, with an overall death toll of about 6,000. Because of its proximity to populated areas and its eruptive history, the volcano was designated a Decade Volcano, worthy of close study to prevent future natural disasters. All volcanoes in the Philippines are part of the Ring of Fire."
+        heading="LEARN , CODE , UPSKILL"
+        text="Welcome to Coding Samurai , where opportunities come to life! Discover a gateway to hands-on learning, real-world projects, and expert mentorship. Our curated internships pave the way for your journey into the dynamic realm of Tech World . Elevate your skills, build your portfolio, and unlock a future filled with innovation. Your pathway to success begins here at Coding Samurai!"
         img1={Mountain1}
         img2={Mountain2}
         />
 
         <DestinationData
         cName="first-des-reverse"
-        heading="Mt. Daguldul Batangas"
-        text="Mount Daguldol is within the vicinity of the town of San Juan in Batangas. Normally it will take you around 3 hours to reach the jump off point Barrio Hugom by private vehicle.The site has been a favorite trekking location of mountaineers. Although quite new to other hikers, it was discovered by the University of the Philippines Mountaineers in the 1990’s.The trail is man made by the locals of San Juan, Batangas and was worked out to be trekking destination."
+        heading="Experience Exceptional Collaboration."
+        text= "At Coding Samurai, we champion the belief that success is born from collaboration. Our internship initiative is crafted to foster enduring connections among interns, mentors, and tech trailblazers. Within our vibrant community, diverse and passionate individuals come together, dedicated to pushing the frontiers of technology. Whether your interest lies in front-end development, back-end development, or UI/UX design, Coding Samurai offers a niche for every enthusiast. Take the plunge today and join our exceptional community!"
         img1={Mountain3}
         img2={Mountain4}
         />

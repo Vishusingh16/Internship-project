@@ -24,12 +24,12 @@ const Trip = () => {
             />
             <TripData
             image={Trip2}
-            heading="Java"
+            heading="Java Development"
             text="Step into the world of Java development through our specialized internship program. Gain hands-on experience in coding, collaborate with seasoned Java developers, and delve into the intricacies of this powerful programming language. Join us to enhance your skills, tackle real-world projects, and lay the foundation for a successful career in Java development. Your journey into the heart of Java programming begins here."
             />
             <TripData
             image={Trip3}
-            heading="C++"
+            heading="C++ Development"
             text="Dive into the world of C++ development with our specialized internship program. Gain hands-on experience, collaborate with seasoned C++ developers, and immerse yourself in real-world projects. Unlock the potential of this powerful language and pave the way for a successful career in C++ development. Your journey into the heart of robust programming begins here."
             />
           
@@ -59,16 +59,20 @@ const Trip = () => {
             image={Trip7}
             heading="Bussiness Data Analyst"
             text="Elevate your career in business analytics through our comprehensive internship program. Immerse yourself in real-world scenarios, harness the power of data-driven insights, and refine your analytical capabilities alongside industry experts. Join us on a transformative experience where you'll unlock the keys to effective decision-making and propel your career forward in the dynamic field of business analytics."
+           
+
+
             />
              <TripData
+            
             image={Trip8}
-            heading="Machine Learning"
-            text="Embark on a journey into the realm of Machine Learning with our specialized internship program. Gain hands-on experience in cutting-edge technologies, collaborate with leading minds in the field, and tackle real-world challenges. Unleash the power of algorithms and data to shape the future. Elevate your skills and career prospects in the fascinating world of Machine Learning with our internship opportunities."
-            />
+            heading="Artificial intelligence/Machine Learning"
+            text="Unlock the doors to innovation with our internship program in Artificial Intelligence and Machine Learning. Immerse yourself in the dynamic landscape of AI and ML, where you'll work on groundbreaking projects, learn from industry pioneers, and shape the future of intelligent technologies. Join us in decoding the mysteries of data, crafting intelligent algorithms, and turning concepts into reality. Your journey into the fascinating world of AI and ML starts here."/>
              <TripData
             image={Trip9}
-            heading="Python"
+            heading="Python Development"
             text="Embark on a Python development adventure with our distinctive internship program. Immerse yourself in the world of versatile coding, collaborate with seasoned Python developers, and contribute to real-world projects. Unlock the potential of this dynamic language and cultivate a solid foundation for a successful career in Python development. Join us as we code, innovate, and shape the future."
+            
             />
 
 </div>

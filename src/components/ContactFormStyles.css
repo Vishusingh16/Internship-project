@@ -22,7 +22,8 @@
     background-color: black;
     color: white;
     display: inline-block;
-    animation: scroll 15s linear infinite;
+    animation: scroll 10s linear infinite;
+
   }
   
   @keyframes scroll {

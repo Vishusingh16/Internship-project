@@ -14,8 +14,8 @@ const Footer = () => {
                 <div>
                     <h4>Explore More</h4>
                     <a href="/">Home</a>
-                    <a href="/">About us</a>
-                    <a href="/">Contact us</a>
+                    <a href="/about">About us</a>
+                    <a href="/contact">Contact us</a>
                     <a href="/">All Version</a>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ const Footer = () => {
                         <a href="/">Indira Nagar, Lucknow, India-226016,</a>
 
                  
-                    <a href="/">Coding Samurai , Opposite Takrohi Petrol Pump</a>
+                    <a href="/">Coding Samurai,Opposite Takrohi Petrol Pump</a>
                 </div>
                 
             </div>
